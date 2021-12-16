@@ -1,0 +1,21 @@
+git --version	chegar versão do git
+git config --global user.email <e-mail>			configurar usuário e endereço de e-mail, global só faço isso uma vez
+git config --global user.name <nome>			configurar usuário e endereço de e-mail, global só faço isso uma vez
+git config --list					ver configurações
+git init						inciar o versionamento em uma pasta, cria os arquivos necessários
+git add <nome do arquivo> / git add * (add tudo)	adiciona em staging os arquivos solicitados / todos
+git commit -m <"descrição commit">			joga o arquivo no repositório
+git log							verifica alterações feitas no repositório
+git show número-do-commit				visualiza alterações ao longo do commit
+git remote add origin <link repositório>		informa no repositório local a pasta remota
+git remote -v						visualiza o repositório online
+git push -u origin master				publica as alterações no repositório online
+git pull						baixa alterações do repositório remoto para o local
+git clone <link>					clona os arquivos de um repositório no git
+git branch <nome da branch>				cria uma branch
+git branch -a						mostra todas as branch que meu computador tem, local e remoto
+git checkout <nome branch que quero ir>			muda a branch
+git fetch						trás as listas de branch que existem no repositório remoto
+git merge origin/<nome da branch>			mescla conteudo das branch
+ls -a							listar todas as pastas, oculatas, etc.
+git status						fornece o status dos arquivos.

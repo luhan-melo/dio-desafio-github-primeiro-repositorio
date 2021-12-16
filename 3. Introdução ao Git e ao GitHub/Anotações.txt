@@ -1,0 +1,718 @@
+Link para download do Git: https://git-scm.com/downloads
+
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Por quê estou aprendendo?
+
+Vou escrever e terá uma equipe por trás para contribuir na correção, porem resolvo manter os arquivos anteriores para poder ter um histórico.
+No contexto de desenvolvimento de software também preciso fazer o controle de edição dos arquivos, e é isso que o Git e o GitHub fazem.
+
+Git criado em 2005, é um sistema de versionamento de código distribuído, criado pelo Linus Torvalds, criador do Linux.
+
+Software não é feito sozinho, é feito de forma colaborativa.
+
+Linux precisaria de um sistema que versoinasse, criasse versões para o mundo inteiro trabalhando no mesmo arquivo, é isso que o Git resolve.
+
+Linus criou pelo descontamento que tinha com os sistemas de versionamento que existiam na época.
+Kernel
+Git e GitHub não são a mesmas coisas, são tecnologias complementares mas diferentes.
+ 
+ 
+
+GitHub foi feito pela Microsoft.
+
+Git é aberto, o GitHub e os sites que hospedam cobram.
+Vantagens de aprender oq to aprendendo:
+  
+
+Vou estar trabalhando em equipe para melhorar meu código
+
+GitHub funciona como uma espécie de rede social.
+
+
+4.2NAVEGAÇÃO VIA COMMAND LINE INTERFACE E INSTALAÇÃO
+4.2.1Comandos básicos para um bom desempenho no terminal
+
+Interface gráfica, maioria dos programas (GUI, gráfica user interface)
+O git é um software é voltado para interação com linha de comando (CLI, command line interface)
+ 
+
+ 
+
+
+Terminal do Windows é derivado do shell, terminal do Linux é derivado do Bash, com isso o conjunto de comandos é diferente.
+
+W10 tem um sistema win dentro do lunix, “Windows subsystem for lunix”
+
+ 
+
+Comando para listar, se situar dentro de um SO.
+No windowns: comando “dir”, lista de diretórios que tenho na pasta.
+No Linux: ls
+
+Flags: variantes de um comando, modificam ou adicionam o formato do comando original.
+
+Comando “cd”, change directory, permite que navega entre as pastas
+“Cd/”, volta para a bese do diretório C
+
+ 
+
+ 
+
+Comando dir, lista todos os arquivos e pastas contiduos dentro da pasta windowd
+
+
+ 
+
+No Linux: cd/, etc, etc: pasta do diretório do SO do Linux.
+
+
+ 
+
+Usando o ls para listas tudo:
+
+ 
+
+ 
+
+Para voltar, uso cd.. (cd dois pontos) para retroceder um nível
+
+ 
+
+ 
+
+Comando para limpar a tela no Windows: cls, clear screm
+
+ 
+
+ 
+
+No Linux é o “clear”
+
+ 
+
+No Linux, ctrl + L é a mesma coisa que usar o clear
+
+TAB: função de autocompletar, se estiver na pasta C e der o CD e digitar o w+tab, ele completa.
+
+ 
+
+Ajuda a não criar erro na digitação de pastas.
+Listas pastas ,listas diretórios, nagegar pasta especida, entrar e sair de pasta, agora aprenderemos a criar pasta.
+“mkdir”, make a directory
+
+
+ 
+
+“silence is succes”, se ficar em silencio é que deu tudo certo.
+
+
+ 
+
+No Linux, como estou usando um subsistema dentro do win, preciso pegar permissão.
+
+
+ 
+
+ 
+
+Ls para verificar as pastas 
+
+
+ 
+
+
+No win, usar o cd para entrar dentro da pasta, digitar “wo” e dar tab, enter e estou dentro da pasta.
+
+
+ 
+
+Criar arquivos dentro da pasta para saber a diferença entre apagar arquivo e repositório
+
+“echo” printa no comando o que digitei
+Símbolo “>” é um redirecionador de fluxo, ele paga o output da função echo e vai jogar em um arquivo.
+SO vai checar se existe uma pasta hello.txt e caso não tenha, ele cria.
+
+
+ 
+
+No lunix:
+
+ 
+
+Chamo o comando “del” para deletar e escrevo o nome da pasta
+
+
+ 
+
+Dei o comando dir para ver a listagem de arquivos.
+
+
+ 
+
+O comando “del” se restringe a deletar arquivos!!!
+Entro dentro de workspace e dou o “dir” vejo que não tem nada, então o comando “del’ só deletou os arquivos que estavam entro da pasta.
+
+
+ 
+
+Quero deletar um respositório, pasta
+Para acessar os comando que já dei, uso o atalho “setinha pra cima”
+
+
+ 
+
+Dou comando para criar a pasta de novo.
+
+Comando no win uso o comando de RMDIR, de remove diretory.
+
+Usar duas flags /S e /q
+
+
+ 
+
+Verifico com o dir se realmente apagou e vejo que ele não lsitou mais workscparce
+
+
+ 
+
+NO Linux uso só o comando “RM” e a flah –rf
+R: recursivo, se dentro de Workspace tiver outras pastas ele apaga todas, o “f” é para forçar, não perguntar se quero que seja delado
+
+
+ 
+
+ 
+
+4.2.2 INSTALANDO O GIT
+ 
+
+Verificar as opções marcadas
+ 
+
+Escolher o editor padrão.
+Usar editor de texto para resolver algumas coisas, deixar o vim mesmo
+ 
+
+“master” era aplicado a branch principal, agora foi retirado, porem os repositórios estão com master. Deixar o git decidir
+ 
+
+ 
+ 
+
+ 
+
+Quebra de linhas qual tipo de caracter o git vai usar?
+ 
+
+ 
+
+ 
+
+Deprecated, defesado, não é mais utilizado.
+Maneira nova para as credenciais.
+ 
+
+
+ 
+
+ 
+
+Instalações para Linux e mac é diferente.
+
+Tenho que instalar a versão mais recente, se eu clicar no aplicativo, ele vai instalar a versão antiga.
+Preciso abrir a pront de comando e fazer por lá.
+
+ 
+
+ 
+
+  
+
+NO Mac USAR UM gerenciador “homebrew”
+
+4.3 ENTENDENDO COMO O GIT FUNCIONA POR BAIXO DOS PANOS
+Entender conceitos fundamentais da tecnologia, para ter ciência do que está acontecendo.
+4.3.1 TOPICOS FUNDAMENTAIS PARA ENTENDER O FUNCIONAMENTO DO GIT
+ 
+Sha1 é um agortimo de criptogração
+
+ 
+
+A saída dos dados encriptados gera um conjunto de 40 caracter, único, que a cada mudança gera outro conjunto de 40 caracter. 
+ 
+
+	Indetificar os arquivs de forma rápida e segura.
+
+ 
+
+Forma curta de presentar um arquivo
+Echo joga a string para o terminal.
+
+Joguei o código para o sha1
+
+Tipo de assinatura, string
+O conjunto que gera é muito importante.
+
+Botão direito no desktop, git bash gere, para lançar o git bash no desktop
+
+Comando: openssl sha1 texto.txt
+
+Sha1: algoritmo de encriptação.
+Alterar o txt e fazer o mesmo comando.
+Se eu voltar o arquivo ao que era antes, ele gera os primeiros 40 caracteres.
+ 
+ 
+
+4.3.2 OBJETOS INTERNOS DO GIT
+3 tipos básicos de objetos responsáveis pelo versionamento do nosso código:
+
+ 
+
+Porque o git é sistema distribuído e seguro?
+
+Exemplo:  
+
+Passar a string para dentro de um objeto.
+Função: hash-object –stdin, flag stdin é para que a função espera receber um arquivo, porem estamos enviando um texto, então estamos falando isso para a função, que na verdade ela vai receber um texto.
+
+Se passamos a essa string para essa função, ela vai passar o sha1 desse conteúdo
+
+O primeiro é pelo git
+
+O segundo é pelo openssl
+ 
+ 
+Tem um sha1 para o arquivo do blob
+ 
+
+Segundo objeto são as arvores, tree. As arvores, tree armazena os blobs.
+Arvore contem metada dados.
+Arvore também guarda do nome do arquivo, o bob não, bob guarda só o conteúdo, não guarda o nome do arquivo e nem o sha dele.
+
+ 
+
+
+As arvores também tem um sha1 para os dados das arvores.
+
+
+
+
+ 
+
+Blob contem meta dados do objeto.
+
+Se mudar uma virgula no arquivo, muda o blob (bolhas)
+ 
+
+
+Blob aponta para os objetos.
+
+COMMIT junta tudo, da sentido para a alteração que to fazendo, commit aponta para arvore, para autor, para mensagem...
+ 
+
+Objeto leva a data e hora de quando ele foi criado também.
+Commits também possuem uma encriptação, sha 1.
+Se eu alterar um arquivo dentro de uma blob, vai gerar um sha1 dessa blob, altera também o metadados sha1 da arvore e também vai alterar o do commit.
+
+Com isso monto uma linha de quais commits foram realizados.
+Forma segura que aquele commit mostra exatamente o que ele é, se alguém alterar vai ficar muito claro, uma vez que altero o arquivo, eu altero toda a estrutura daquele arquivo.
+Commite é único para cada autor.
+
+ 
+
+
+PORQUE O GIT É UM SISTEMA DISTRIBUIDO E SEGURO
+
+É um sistema distribuído: código hosteado na numve, exemplo github, o código apresentado lá é a versão mais atualizada do meu código. Se o repositório tiver 30, 40 pessoas contribuindo, ele estará no computador das pessoas, as versões disponíveis em todos são muito confiáveis, visto que estará todo o histórico do commit. Para dar algo de errado, tem que falhar no github e nos 40 PC que contribuem para o código.
+
+4.3.3 CHAVE SSH E TOKENS
+Quando for jogar o código para o github eu preciso falar quem sou eu, não posso só utilizar meu nome e minha senha, preciso criar um processo de autentificação.
+
+CHAVE SSH é uma forma de estabelecer uma conexão segura e encriptada. Sempre vai haver uma chave publica e privada.
+Ir em setting, e criar uma nova chave SSH. https://github.com/settings/ssh/new
+
+Sequencia de comandos para criar o par de chaves, tem que seguir passo a passo
+
+Ssh-keygen -t ed25519 -c luhanalves@outlook.com
+Inserir o local aonde as chaves vão morar: as pastas que começam com “ponto” . são pastas ocultas.
+ 
+
+ 
+
+As chaves estão nessas pastas.
+Acessar essas pastas para descobrir as cahves.
+
+Cat id_ed255519.pub fornece o conteúdo.
+A CHAVE QUE COLOCAMOS NO GITHUB É A CHAVE PULBICA!!!
+
+ 
+
+Copiar esse valor e colar no gitgub.
+
+ 
+
+ 
+
+Precisamos fazer mais um processo no CLI para dar certo
+Comando PWD mostra o caminho completo.
+
+ 
+
+Ativar o ssh agen, ele vai validar isso.
+
+Eval $(ssh-agente -s)
+
+ 
+
+Esse comando startar um processo.
+
+Entegar a chave para o caminho.
+Como estou dentro da pasta posso passar direto.
+Passo para o agente a chave privada!! O agente fica responsável para fazer essa validação
+
+ 
+
+Toda vez que clono um repositório, não posso simplesmente utilizar o git clone.
+Se eu copiar a url. Era como que clonasse por https, porem quando tenho essa chave, preciso clonar pela SSH!!!
+Vou no github e pego a chave ssh do código que quero clonar.
+ 
+
+
+Git clone e passar o caminho da chave ssh.
+
+ 
+
+ 
+
+Se você suspeitar que alguém usou sua chave, posso deletar e gerar ela de novo
+
+ 
+
+
+Github docs
+
+
+TOKEN DE ACESSO PESSOAL
+VOU GERAR UM TOKEN e sempre que for fazer um commit vou fazer  o login e passar esse token para fazer.
+Ir em devoloper settings, personal acces tokens.
+Se vou mexer normal, só marcar o “rope”
+ 
+
+Copiar o token e salvar em um lugar que seja 100% seguro, não vou conseguir ver essa informação de novo!!!.
+
+Quando tenho o token, eu clono pelo https
+
+
+ 
+
+ 
+
+
+
+4.4 PRIMEIROS COMANDO COM GIT
+4.4.1 INICIANDO O GIT E CRIANDO UM COMMIT
+O que vamos fazer?
+ 
+
+ 
+
+Git init: iniciar o repositório no git
+Git add: mover arquivos e dar o versionamento
+Git commit: criar o primeiro commit
+
+Sempre colocamos o nome do terminal na frente, por isso sempre leva  o nome “git na frente”
+
+CRIANDO UM REPOSITÓRIO
+Colcoar um texto la dentro e versionar nosso código.
+
+Clicar com o botão direto no diretório C
+LS PARA LISTAR
+ 
+
+Criar pasta dentro
+ 
+ 
+ 
+
+ GIT INIT: para iniciar o versionamento
+
+ 
+Foi inicializado um repositório vazio do git dentro da pasta
+
+Se eu ter um ‘ls” aparece nada, porem a pasta é oculta e não aparece, é uma pasta gerencial do git, onde ele verisona tudo
+
+Usar uma flag para modificar.
+
+Usar ls -a para ver as patas ocultas.
+
+ 
+
+ 
+
+Voltar um nível “cd ..”
+
+Configurações iniciais: pedir um nickname e um e-mail, para identificar o autor
+
+Rodar o seguinte comando: git config –global (posso usar de forma global ou só para esse trabalho)
+
+USER.NAME
+
+ 
+
+Criar um arquivo dentro dessa pasta.
+
+Poderia usar o TXT porem vamos usar o MARKDOWN, esse arquivo é uma forma mais humana de escrever um arquivo html, que é a estrutura básica para criar uma pagina na web.
+
+ 
+
+Titulo de nível 1, “#”, nível 2 “##”....
+Markdown forma humanizada de escrever html sem entender como funciona o HTML. Arquivo  . MD estamos usando estruturas simples para que o texto fique mais simples.
+Criar um arquivo “strogonoff.md” dentro de livro de receitas, ele usa  o programa TYPORA para abrir esse tipo de arquivo..
+ 
+
+**negrito** _italico_
+No typora posso usar emotion, usar “:” e colocar o nome, tipo chicken.
+Para fazer uma lista usar “- “
+Como saber como o markdwon funciona, ir em ajuda, markdown reference e acessar.
+
+Salvar a receita, voltar para o terminal do git e comitar.
+
+
+Dar o comando git add *
+Depois dar git commit -m (é uma flag do git commit) e passar um texto, uma string para o commit. Commit carregam um mensagem de texto junto com outros metadados (autor, hora..)
+Git commit -m “commit inicial”, com isso consigo ver qual foi o commit,
+
+Traz algumas informações,
+ 
+Em vermelho os primeiros caracteres do sha 1, identificado o commit
+ 
+
+Aprendemos a criar um repositório, iniciar o git, iniciar a estrutura do git para que ele possa realmente iciar o versionamento do código, tivemos o primeiro contato com o markdown e fizemos o commit incial.
+
+4.5 CICLO DE VIDA DOS ARQUIVOS NO GIT
+4.5.1 passo a passo no ciclo de vida
+GIT INIT: além de criar a pasta .git/, também incia o git criando um repostório
+
+TRACKED and UNTRACKED, arquivos rastreados dentro do git.
+Untracked são os arquivos que o git ainda não tem ciência deles e tracked são os que ele tem ciência.
+ 
+
+Unmodified que não foi modificado, modified é um arquivo unmodified que foi alterado.
+Staged: é o backstage de um palco, pessoas que cuidam do figurino, pessoas preparadas para entrar no palco. É onde ficam os arquivps que estão se preparando para fazer parte deum outro tipo de agrupamento.
+
+Quando usamos o git add, tivemos um arquivo untracked (strogonoff .md) gir ainda não sabia dele, e quando usamos o git add ele moveu o arquivo untracked para a staged, aonde ele está esperando alguma coisa para acontecer.
+
+ 
+
+Arquivo unmodied é um arquivo que está dentro do git sem mudanças, ai altero ele e ele se torna um arquivo “modified”, e como o git sabe que ele mudou? Comparando o SHA1 desses arquivos.
+ 
+
+Se a gente pega esse arquivo e roda o git add, esse arquivo vai para staged, aguardando fazer parte de outro grupo de arquivos.
+ 
+
+E se a gente tem um arquivo unmodified e removemos ele, ele vai para untracked, git não tem mais noção dele
+ 
+
+Quando movemos o arquivo para staged, o arquivo está aguardando para fazer parte de um commit. Commit é um objeto chave do GIT. Envelopamos todas as modificações e integram um grupo, o objeto commit. E o commit retorna todos esses arquivos para um grupo UNMODIFIED, para começar o ciclo de novo.
+
+ 
+
+Acabei todas as alterações e vou criar uma foto disso, um snap shot.
+Tirar a foto do código naquele momento.
+
+GIT INIT, O QUE OS RESPOSITORIOS SIGNIFICAM?
+ 
+GIT É UM SISTEMA DISTRIBUIDO, tenho versões no repositório remoto e o local, o local é meu PC. Para fazer as alterações do repositório local chegar no remoto, preciso executar uma série de comandos.
+Os arquivos vão sempre alternando entre staging área e woking directory, quando faço o commit ele integra meu repositório local, e esse repositório local posso empurrar para o repositório remoto.
+
+ 
+
+ 
+
+Meu repositório local será composto por commit, se não tiver o commit, não envio para o repositório remoto.
+
+GITHUB é nosso repositório local!!!
+
+COMANDO: GIT STATUS, fornece os status dos arquivos, se o arquivo está untracked, se está modified, staged.
+ 
+Na branch master, não tem nada para commitar, e a arvore de trabalho está limpa.
+Criar uma pasta chamada receitas e mover para ela as receitas que vamos escrever e fora dessa pasta vamos escrever um arquivo para mostrar o que é arquilo. Arquivo MD de fora da pasta se apresenta de forma mais elegante.
+Criar um arquivo, comando mkdir receitas
+
+Comando para mover arquivo dentro de um repositório: MV, ./ (desse respositório que a gente está quero buscar outro repositório
+ 
+Dar o git status novamente.
+ 
+Mudanças: deletamos o arquivo strogonoff, estão no staged e não estão commitados, porque está falando que deletou? Porque ao ver do sistema operacional parece que deletei, mas só movi para outra pasta, porem o GIT não conhece essa pasta. Como ele não sabe dessa pasta, ele coloca ela como UNTRACKED.
+Dar um git add e o nome do arquivo para mover esses arquivos para a área de staged e ai sim dar o commit.
+
+Vamos adicionar esses arquivos para a área de staged e dpois dar um commit.
+
+“git add e nome do arquivo” 
+Git ad/rm para mover os arquivos
+Git add strogonoff.md receitas/ (temos um arquivo novo e uma pasta nova tbm.
+ 
+
+ 
+
+Para mudar os arquivos para a área de unstaged, usar o comando git restore –staged <NOME DO ARQUIVO> para voltar para untaged.
+
+ 
+
+Criar novo arquivo para ver o indexador, criar o arquivo “README.md”, comando “echo > readme.md
+Dar o ls para ver a lista de arquivos.
+ 
+Temos arquivos tipo untracked, não está sendo versionado
+
+COMANDO GIT ADD *, pega tudo que foi modificado e transforma em “STAGED”.
+Deu uma mensagem relativa a quebra de linhas
+ 
+ 
+
+Arquivo readme é a capa do meu livro de receitas!!!
+
+ 
+
+ 
+
+ 
+
+
+4.6 INTRODIÇÃO AO GIT HUB
+4.6.1 TRABALHANDO COM O GITHUB
+Criar uma conta no github e empurrar o repositório para o github.
+
+e-mail do repositório local é bom que seja igual ao do remoto.
+Posso fazer commit pelo github, corrigir um merge pela plataforma.
+Usar comando git config –-list para listar todas as configurações que tem no meu git
+Para escrever de novo comando: git config –global –unset user.e-mail.
+Os commits que já fiz não altera os autores anteriores, portantoo a mudança agora não vai afetar.
+
+
+Para criar um repositório no github, vou no canto direito da tela, repositórios
+
+Os arquivos contam as histórias do repositório README
+
+Tenho que apontar meu repositório local para o repositório remoto, e qual é o endereço do remoto? É um https!! 
+https://github.com/luhan-melo/livro-receitas.git
+
+Abro o git bash.
+Dar LS para se situar.
+
+Apontar as alterações da maquina local para o repositório remoto.
+
+Adicionar primeiro a origem.
+Comando: git remote add origin <colar link do repositório no git hub>
+Comando git remote -v para listar as listar de repositório cadastrado.
+
+Origin é apenas um apelido, alliest, para não ficar digitando o link, o nome toda hora.
+ 
+
+O comando para levar o repositório local para o remoto é realmente o “empurrar”.
+Comando git push ORIGIN maste
+o origin é o nome
+
+ele pediu o código do repositório. É uma camada de segurança (não tenho ativado ainda).
+
+ 
+
+Recarregar a pasta no github.
+ 
+
+  inicio do sha
+
+ 
+
+Objeto parente
+ 
+Clicando nos shas, eu vejo o conteúdo dos commits
+ 
+
+ 
+4.7 RESOLVENDO CONFLITOS
+4.7.1 Como os conflitos acontecem no github e como resolvê-los
+Conflitos são comuns no versionamento de códigos.
+
+No primeiro momento a versão que estão na minha maquina e no repsitorio do github são as mesmas coisas.
+Alguem vai e pega meu código, clona, para poder fazer as alterações. 
+Fizemos edições no mesmo arquivo , de forma diferente, portanto o código de cada uma das maquinas está diferente, e a edição acontece na mesma linha!!!
+É quando a edição ocorre na mesma linha que da erro.
+A pessoa que fez a alteração jogou para o github, agora o código da minha maquina está desatualizado.
+Quando eu submeter meu código para o github ele vai dar uma mensagem falando que tenho que puxar a versão nova do git hub para ai sim poder empurrar.
+ 
+Nessa hora surge o conflito de MERGE
+
+O github vai deixar que você abra o arquivo, que resolva o conflito da mesma linha e digo para ele qual é a versão mais correta!!
+
+Exemplo: acrescentar mais uma receita no redme (pavê)
+
+ 
+
+O ultimo commit que esta no git hub não é igual ao meu, tenho que integra-los!!
+ 
+COMANDO: GIT PULL puxar o que está aqui e lá na minha máquina!!!
+
+ 
+
+Quando reparou que na mesma linha tinha diferença
+
+Abrir o readme e ver os conflitos!!! ELE FAZ ESSAS MARCAÇÕES.
+
+ 
+
+ 
+
+A ALTERAÇÃO QUE TEM NO GIT é a circulada em vermelho.
+ 
+
+A alteração que está no github está:
+ 
+
+Na minha maquina está escrito pavê, porem no repositório está bolo de cenoura.
+Portanto eu apago o que não quero e os comentários “<<<<<<. >>>>>” e ajusto.
+ 
+
+Volto no git , dou git status, 
+A gente abre, faz a alteração e commita de novo
+ 
+
+ 
+
+Empurrar isso para o repositório.
+
+ 
+
+No github:
+ 
+
+
+ 
+
+MERGE CONFLICTS, é assim que resolvemos manualmente.
+
+Como baixar um respositório e ir
+
+ 
+
+Ir para o git bash, copiar o código que peguei.
+
+Usar ocomando GIT CLONE, colocar a url.
+ 
+
+Agora tenho o livro de recetas e repositório de abaixei.
+ 
+
+Quando eu clno já vem como um repositório do git, dentro dele tem uma pasta “.git”.
+
+ 
+
+Ls -a, mostra repositórios ocultos
+
+Tem o .git, não é uma pasta comum, é um repositório
+ 
+
+ 
+
+Git remote -v para onde ver que esse repositório está apontado!!!.
+

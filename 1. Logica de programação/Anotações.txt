@@ -1,0 +1,396 @@
+É mais importante resolver o problema do que saber o código
+Programar é resolver problema
+Focar na logica e habilidade de resolver problemas
+Erro de programador iniciante ir direto para o software
+Pensar nos problemas e pensar numa sequencia coerente
+Logica de programação é contextualizar a logica na programação de computadores.
+Qual a melhor sequencia de ação para resolver o problema? (algoritmo)
+Metacognição: pensar como eu penso
+Conceito da abstração: preciso de todas as informações? Consigo fazer mais simples?
+Dividir o todo em partes: abstração
+Mapa mental para resolver o seguinte problema:
+ 
+O método que eu resolvi esse problema é o mais simples? É possível melhora-lo?
+
+1.2 O QUE SÃO ALGORITMOS E PSEUDOCÓDIGO
+Algoritmo: sequencia de passo para resolver um problema
+Em programação preciso indicar o inicio e fim de alguma atividade
+Qualquer problema que eu resolver é uma sequencia de dados, se eu inverter altero o resultado
+Não é possível levantar da cama sem acordar, por exemplo
+Site: https://studio.code.org/s/mc/lessons/1/levels/1
+Site voltado a ensino de programação para iniciantes
+Em programação existem recursos para repetir
+Função condicional no exemplo 11
+
+
+Pseudocógido é uma forma genérica de escrever um algoritmo utilizando uma linguagem simples, nativa, de forma a ser entendida por qualquer pessoa, mesmo não sendo um programador. Pseudocódigo é usado só para aprender a programar, na hora de programar mesmo, utilizo outra linguagem
+
+Algoritmo do meu dia:
+Inicio dia
+Acordo
+Levanto da cama
+Escovo os dentes
+Desço as escadas
+Pego copo
+Coloco agua no copo
+Coloco própolis no copo
+Tomo a agua com própolis
+Lavo o copo
+Devolvo o copo no lugar
+Ligo o fogo para cozir o ovo
+Pego a toalha
+Subo as escadas
+	Abro a porta do banheiro
+Entro no banheiro
+Fecho a porta do banheiro
+Abro a porta do box
+Entro no box
+Fehco a porta do box
+Ligo o chuveiro
+Tomo banho
+Desligo o chuveiro
+Abro a porta do box
+Pego a toalha
+Me enxugo
+Saio do box
+Fecho o box
+Abro a porta do armário
+Pego o desodorante
+Abro o desodorante
+Passo o desodorante
+Fehco o desodorante
+Guardo o desdodorante
+Fheco a porta do armário
+Abro a porta do banheiro
+Saio do banheiro
+Fecho a porta do banheiro...
+
+inicio
+pinguem filho verde em cima do gelo
+pinguem pai verde em cima do gelo
+gelo anda
+pinguim pai verde desce
+gelo anda
+pinguem filho azul em cima do gelo
+gelo anda
+pinguem filho verde desce do gelo
+gelo anda
+pinguem filho azul desce do gelo
+pinguem filho vermlho em cima do gelo
+pinguem pai vermelho em cima do gelo
+gelo anda
+pinguim pai vermelho desce
+gelo anda
+pinguim filho azul em cima do gelo
+gelo anda
+pinguim filho vermelho desce
+gelo anda
+pinguim pai azul em cima do gelo
+gelo anda
+pinguim pai azul desce
+pinguim filho azul desce
+fim
+
+1.3 APRENDENDO FLUXOGRAMA, VARIAVEIS E CONSTANTES
+Fluxograma é uma ferramenta utilizada para representar graficamente o algoritmo
+ 
+ 
+Não necessariamente precisa ser um software
+  ..
+Existem diversas formas para cada bloco especifico do fluxograma
+
+Não existe um padrão do desenho
+
+ 
+
+Real: números com virgula
+
+VARIAVEIS E CONSTANTES
+Variável na programação é um objeto representado na memória que representa um valor ou uma expressão.
+Geralmente sempre declaro as variáveis antes.
+ 
+
+Nome: alfanumérica
+ 
+	
+
+CONSTANTES: VALORES ARMAZENADOS NA MEMÓRIA QUE NÃO IRÃO SE ALTERAR, SERÃO SEMPRE O MESMO DURANTE TODO O PROGRAMA
+Por exemplo declarar o número pi()
+ 
+
+Fazer o download do programa disponível no site http://www.flowgorithm.org
+
+Variavel sempre começa com letra. Não colocar acento, nem espaço em branvo
+
+Fiz errado, posso declarar as variáveis no mesmo quadro
+ 
+
+ 
+
+
+Exibir também o total de cálculo de notas, exibir as notas 1 a 4	
+
+
+1.4 TOMADAS DE DECISÃO E EXPRESSÕES
+1.4.1Expressões aritméticas
+São expressões que utilizam operadores e funções aritmética envolvendo constantes e variáveis
+Exempo: Exiba 50+50
+Total+50
+
+ 
+
+1.4.2 Expressões literais
+São expressões com constantes e/ou varivaies que tem como resultado valores literais. Usamos expressões literais na atribuição de valor para uma variável ou constante
+Exemplos:
+Nome=”José da Sila” (software real)
+Nome<-“José da Silva” (pseudocógido)
+Media=(nota1+nota2+nota3+nota4)/4 (atribuo o resultado dessa expressão para a variável média)
+
+ 
+
+ 
+
+1.4.3 EXPRESSÕES RELACIONAIS
+São expressões com
+ 
+Operadores relacionais
+ 
+
+•	Um sinal de igual “=” é utilizado para atribuição de variável
+•	Para comparar valores, signifincando o “igual” em matemática, utilizo dois iguais “==”
+•	Difetente também pode ser “<>”, x<>Y
+
+ 
+
+
+1.4.4 TOMADAS DE DECISÃO
+Tomadas de decisão são 60% da programação
+ 
+ 
+
+Valor de variável não uso aspas
+Necessaro a alternativa
+ 
+ 
+Ao rodar o exemplo, preciso preencher se é “false” ou “true” a opão que o cliente possui cartão
+
+ 
+
+Exemplo para mostrar média e avaliar se vai estar reprovado ou aprovado.
+Se tirar 7 ele é aprovado? Não, tem que tirar 7,1.
+ 
+
+Exercicio delcarar 4 varivaies, janeiro, fevereiro, março e abril, cada um desses será um valor que um determinado vendedor realizou nesse mês. Terei outra variável que irá calcular a média desses 4 meses. Se a média for maior ou igual a 5000, parabéns você vai receber um abno de 10%, se for menor, você receberá um abono de 3%.
+
+
+
+
+1.5 CONCATENAÇÃO
+Concatenação é um termo usado em computação
+ 
+
+Armazenei uma variável nome e outra sobrenome, para exebir o nome completo, posso exibir o conteúdo da variável nome com o da sobrenome, se tornando um único resultado.
+
+ 
+
+Não necessariamente é só letra, pode ser numero também.
+É muito útil para exibição ao usuário.
+Usar o “e” comercial no programa que usamos.
+Dependerá da linguagem de programação: pode ser o “&”, “.”, sinal de “+”
+
+ 
+ 
+
+
+Exercicio com a média, perguntar o nome do aluno, calcular a media, dizer pro usuaruio “seu nome é “ e sua “média foi”
+
+2 INTRODUÇÃO AO PORTUGOL
+2.1 APRENDA COMO UTILIAR UMA ESTRUTURA DE REPETIÇÃO
+Estruturas de repetição junto com as tomadas de decisão são 70% da programação
+ 
+Importante condição ou contador
+
+Numero = posição atual do numero
+Limite = limite de contagem
+
+ 
+
+Enquanto numero for menor a limite, a estrutura vai se repetir.
+
+ 
+
+Exemplo de fazer a taubada do 9
+Eu criei uma variável para fazer a multiplicação
+O professor fez a conta dentro da saída.
+
+ 
+Pelo meu não daria para iniciar pelo zero
+
+
+2.2 O QUE SÃO LINGUAGEM DE PROGRAMAÇAO?
+Aprender mais sobre linguagens de programação e introdução ao Portugal (utilizar os pseudocódigos na pratica)
+
+ 
+
+Linguagens para gerar programas.
+ 
+
+Usar a linguagem de programação para explicar para a maquina como resolver meu problema.
+
+Dois tipos de linguagens: alto nível (mais próximo da nossa linguagem, a grande maioria é, C, PHP, Java Script, phyton, C sharp (C#)) e baixo nível (mais próximo do computador , exemplo Assembly)
+ 
+
+ 
+
+Linguagens de programação que são compiladas e interpretadas.
+Compilador pega o meu código fonte e traduz para o computador entender. Compiladas: C#, Visual Basic, Delphi, C++, transformo elas em um executável e rodo sobre o sistema operacional.
+Linguagem de programação interpretadas: código fonte é executado por um software, exemplo o browser quando acessamos a internet, exemplo, javascript, PHP, phyton.
+
+O que é portugol?
+ 
+
+ 
+Baixar a IDE do Portugol, é o ambiente gráfico dele.
+https://github.com/univali-lite/portugol-studio/releases/
+
+Existem regras para digitar os programas
+
+Para nome usar: caractere (para receber uma letra só, de A a Z)
+Para textos: cadeia
+Declarei todas as varivaveis
+ 
+
+ 
+
+Para concatenar usar o “+”
+ 
+
+
+ 
+
+Fazer o mesmo processo, porem para obter a media dos meses de janeiro a bril, exibir o total de vendas e a media
+
+2.3 APRENDA A UTILIAR DESVIOS CONDICIONAIS E BOAS PRATICAS EM PROGRAMAÇÃO
+Como usar o desvio condicional “se”
+ 
+Palavra reservada: utilizada para fazer uma determinada função especifica no programa, não posso criar uma variável com essas palavras reservadas para os programas, tais como “se”, “escreva”, “leia”
+Exemplo:
+ 
+
+Para escrever o que vai acontecer, tenho que escrever entre as chaves
+Para quebras de linha utilizar a string para quebra de linha: “\n”
+
+ 
+
+Para poder seguir com uma condição falsa, preciso utilizar o SENAO
+
+ 
+ 
+
+Utilizo se + senão caso a condição seja falsa
+Posso seguir com caminhos de falso ou verdadeiro dentro de uma estrutura de condição
+
+Dentro de um trabalho em equipe, é interessante deixar comentários para explicar um pouco o código e/ou algumas linhas de comando.
+No portugol utilizar “//”
+ 
+
+O se e senão, permite basicamente somente 2 casos, porem e se eu quiser ou precisar de mais condicionais?
+
+Utilizar o desvio condicional CASO
+ 
+
+Com o caso eu reduzo a quantidade de “se’s” 
+
+Exemplo de escolha de menu de empresas de streaming
+Igualdade no portugol “==”
+
+ 
+
+Se eu tiver 200 opções, tenho que criar 200
+
+O que posso facilitar é a função CASO
+
+ 
+Caso 1: caso se digitar 1
+Uso o pare para encerrar o caso 1
+Não esquercer os dois pontos após o caso
+
+ 
+
+
+2.4 TRABALHANDO COM LAÇOS DE REPETIÇÃO EM PORTUGOL
+Laços ou estruturas de repetição:
+ 
+Executam uma ´serie de comandos repetidas vezes com base em uma condição ou contador
+
+Exemplo:
+ 
+
+Utilizar o comadno FACA, que repete tudo que estivar dentro dele
+
+Contador ++ = contador +1
+Se eu não fazer o contador +1 ele ficará sempre preso em um looping!!!
+
+
+ 
+
+Pedir para o usuário qual a tabuada que ele quer
+Eu fiz como real!!! Tinha que declarar como inteiro
+
+Fazer outro EC, como se eu definisse até quando vai a tabuada, 100? 200? 300?
+
+
+
+2.5 MATRIZES E VETORES
+ 
+Não posso ter dentro de uma matriz caracteres do tipo inteiro ou cadeia, tem que ser tudo inteiro.
+
+É como se fosse uma tabela de linha e colunas que preciso indicar a posição do valor que eu quero, exemplo na matriz tabela, quero a informação da linha 2, coluna 3.
+
+Vetores são matrizes de uma só dimensão, como por exemplo só com colunas
+
+Exemplo:
+ 
+
+Indice sempre começa com zero
+Fruta[0] “fruta índice zero”
+
+O [][] é para ele pegar automático, em função do nome que eu der, o “100” é quantidade
+No final, o programa pede para ir lá na linha 0 coluna 0, pegar o que tem lá (maçã) e escrever a quantidade.
+
+Criei uma variável do tipo matriz/vetor (cadeia), deixei em branco entre os [][] para ele identificar a quantidade automaticamente
+ 
+
+O conteúdo de cada linha e coluna também tem que estar entre chaves
+ 
+ 
+Numero 100 precisa estar entre aspas? Sim, porque é uma variável do tipo cadeia.
+ 
+Cada valor entre os colchetes é uma linha
+
+Clicar em cima da chaves para ver se ela ta fechada
+
+Vou pedir para ele indicar quem está na linha 0 e cluna 0
+ 
+ 
+
+Para escrever o produto e a quantidade (quantidade é linha 0 coluna 1):
+ 
+
+ 
+
+Como fazer para exibir todos os produtos?
+ 
+
+Ultimo exercício:
+Guardar e apresentar todos os valores da matriz:
+
+ 
+
+A minha deu errado porque o contador inicial para LINHA e COLUNA sempre é ZERO!!!!
+ 
+
+O mesmo funciona para o contador das linhas!!! TAva indo até 3, mas na verdade como conta o zero, o correto é 2!!!
+
+ 
+

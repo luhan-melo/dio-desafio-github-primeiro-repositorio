@@ -1,0 +1,265 @@
+Estrutura de dados é uma estrutura organizada de dados na memória de um computador ou em qualquer dispositivo de armazenamento, de forma que os dados possam ser utilizados de forma correta.
+
+Estruturas de organização de cidade: casa, veículos, ruas, semáforos
+
+Para o computador armazenar e organizar todas as informações corretamente, nós temos as estruturas de dados. Que pode ser na memoria do computador ou qualquer dispositivo de armazenamento (pen drive, nuvem, etc)
+
+Essas estruturas encontram muitas aplicações no desenvolvimento de sistemas, sendo que algumas são altamente especializadas e utilizadas em tarefas específicas.
+Usando as estruturas adequadas através de algoritmos, podemos trabalha com uma grande quantidade de dados, como aplicações em bancos de dados ou serviços de busca.
+
+Existes estruturas para grande quantidade de dados ou pequenas.
+
+Como aplicar essas estruturas: Através de algoritmo
+
+Um algoritmo é um conjunto de instruções estruturadas e ordenadas, seu objetivo é realizar uma tarefa ou operação especifica.
+Os algoritmos são utilizados para manipular dados nas estruturas de várias formas, como por exemplo: inserir, excluir, procurar e ordenar dados.
+Ex. trocar lâmpada, somar dois números, etc.
+
+Vetor: permite colocar várias variáveis.
+ 
+
+
+Em uma estrutura de dados devemos saber coisas como:
+Inserir dados
+Excluir dados
+Localizar um elemento
+Percorrer todos os itens constituintes da estrutura para visualização
+Classificar, que se resume em colocar os itens de dados em uma determinada ordem (numérica, alfabética, etc.)
+
+Principal estruturas de dados:
+Vetores e Matrizes (arrays)
+Registro
+Lista
+Pilha
+Fila
+Árvore
+Tabela hash
+Grafos
+
+3.1.2 VETORES E MATRIZES
+Vetores e matrizes ou arrays, são estruturas de dados simples que podem auxiliar quando há muitas variáveis do mesmo tipo em um algoritmo.
+Não precisaríamos ficar declarando várias variáveis, poderíamos utilizar de uma variável só para botar dentro dela essas variáveis, por exemplo criar um vetor com 5 variáveis do tipo inteiro
+
+Vetor ou array uni-dimensional é uma variável que armazena várias variáveis do mesmo tipo
+O vetor é uma estrutura de dados indexada (possui índices, de zero até aonde eu quero), que pode armazenar uma determinada quantidade de valores do mesmo tipo. Se faço um vetor com 5 posições, eu começo na posição 0 e vou até a 4.
+Vetor de 4 posição, os índices serão 0, 1, 2 e 3.
+
+ 
+ 
+
+Para exibir todos os elementos, podemos buscar todos.
+Usar a função PARA (equivalente ao “for” em muitas linguagens)
+
+ 
+
+ 
+
+Exemplo do próprio programa “pesquisa_vetor”
+
+Exemplo “Tabela de dados”, cruzamento entre vetores, utiliza dois vetores.
+Cadeia no portugol é string
+
+\t para fazer a tabulação no portugol
+
+Cruzando dois vetores e exibindo o valor dos dois
+ 
+ 
+
+MATRIZ OU ARRAY MULTI-DIMENSIONAL
+É um vetor de vetores
+Uma matriz é um vetor que possui duas ou mais dimensões, contem mais de uma dimensão
+ 
+Vetor de 4 posições e um vetor de 3 posições (matriz de 4 colunas x 3 linhas)
+
+
+ 
+
+
+Ir nos exemplos, vetores e matrizes, ir na seção “exibir matrizes”
+Toda matriz vai ser multiplicada!! Uma matriz de 5x5 tem 25 números
+
+Como tem 2 dimensões, serão 2 “para’s”. São 2 fors, um para linha e outro para coluna.
+
+
+ 
+ 
+
+3.1.3 O QUE SÃO REGISTROS
+Um registro é uma estrutura que fornece um formato especializado para armazenar informações na memoria
+Enquanto arrays nos permitem armazenar várias dados de um núncio tipo de dados, o recuso de registro nos permite armazenar mais de um tipo de dado.
+Uma matriz de inteiro, só terá inteiros, uma matriz de caractere, só terá caracter.
+Já no registro, permite número, nome, texto, qualquer tipo de dado
+
+ 
+
+Podemos usar registro para cadastrar funcionários, clientes, dados em banco de dados, busca, etc.
+ 
+
+Cada registro vai ter uma forma dependendo da necessidade.
+
+Toda estrutura de registro tem um nome, como por exemplo livro, através do operador ponto.
+ 
+
+Por exemplo, se quero retornar no cpf em um registro denominado “cliente”, eu insiro o cógido: “cliente.cpf”.
+Com isso requisito em um determinado algoritmo aquele determinado dado.
+
+Podemos buscar por exemplo, através do “livro.preco”, basicamente funciona: pegue em livro, o preço
+
+
+ 
+No exemplo “i” é um contador
+
+
+ 
+
+
+3.2 ENTENDA O QUE SÃO LISTAS, PILHAS E FILAS
+São estruturas de dados especificas.
+
+3.2.1 O que são listas
+Listas: estrutura de dados do tipo lista, armazena dados de um determinado tipo em uma ordem específica.
+A diferença entre listas e arrays é a de que as listas possuem tamanho ajustável, enquanto arrays possuem tamanho fixo. O array de 5 valores será sempre de 5 valores, enquanto que a lista posso ir colocando ao longo do programa.
+Existem 2 tipos de listas:
+Ligadas
+Duplamente ligadas
+
+Lista Ligada
+Na estrutura do tipo lista existem os nós onde cada um dos nós conhece o valor que está sendo armazenado em seu interior, além de conhecer o elemento posterior a ele: por isso ela é chamada de “lista ligada”, pois os nós são amarrados com essa indicação de qual é o próximo nó.
+
+Um bloco seria uma lista, e com isso existiria um próximo nó está ligado com uma seta para ser adicionado à lista
+ 
+ 
+
+Nó é o primeiro e ultimo nó até que seja inserido um novo nó, ao menos que seja removido, e volta para esse nós
+
+ 
+
+Se for adicionado mais um nó, ele será o último nó
+
+Com isso a lista é flexível, variável.
+
+
+Lista duplamente ligada
+As listas duplamente ligadas constituem uma variação das listas ligadas.
+A diferença entre as duas é que as duplamente ligadas são bidirecional. (na lista ligada não posso colocar um valor anterior ao primeiro nó, já na duplamente eu posso sim ligar antes do primeiro nó).
+Vimos que naturalmente, não conseguem andar para trás em listas ligadas, pois os nós de uma lista ligada sabem somente quem é o próximo elemento. Nas listas duplamente ligadas, os nós sabem quem é o próximo elemento e também quem é o elemento anterior, o que permite a navegação reversa.
+
+
+ 
+Consigo fazer uma busca reversiva e uma normal também
+
+
+3.2.2 O que são pilhas
+Uma pilha é uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado.
+Pilha só permite o acesso somente uma vez.
+
+Tipos de pilhas:
+LIFO ou UEPS (português)
+FIFO ou PEPS (português)
+
+LIFO ou UEPS
+A estrutura do tipo PILHA LIFO (Last in First Out) ou UEPS (último que Entra Primeiro que Sai), apresenta o seguinte critério: o primeiro elemento a ser retirado é o ultimo que tiver sido inserido.
+ 
+O acesso a pilha é restrito, só consigo mexer um por vez. Pode ser pilha ou stack
+Se for preciso mexer, qual eu mexo primeiro? O último que inseri.
+
+ 
+
+FIFO ou PEPS
+A estrutura do tipo PILHA FIFO (First in First Out) ou PEPS (Primeiro que Entra Primeiro que Sai), apresenta o seguinte critério: o primeiro elemento a ser retirado é o primeiro que tiver sido inserido.
+Primeiro a ser retirado do empilhamento ou da stack, é o primeiro que foi inserido.
+
+
+Representação gráfica
+ 
+
+Chama de stack ou empilhamento
+Push = inserir, pop = remover
+
+ 
+
+Números são só a ordem, pode ser qualquer tipo de valor!!!
+
+
+3.2.3 O que são FILAS
+A estrutura do tipo Fila admite remoção de elementos e inserção de novos sujeita à seguinte regra de operação:
+O elemento removido é o que está na estrutura há mais tempo ou seja, o primeiro objeto inserido na filha é também o primeiro a ser removido, seguindo o conceito fifo.
+Exemplo, fila de pessoas, primeiro e segundo elemento, o elemento que será removido será sempre o primeiro que está na fila, removendo pelo começo de uma filha e assim sucessivamente.
+ 
+Sempre vai ser inserido a direita e removido a esquerda.
+
+3.3 ESTRUTURAS DE DADOS DO TIPO ÁRVORE, TABELA HASH E GRAFOS
+Vamos ver estruturas de dados do tipo arvore, tabela hash e grafos.
+
+3.3.1 O que são arvores
+“as arveres somos nozes”
+
+ 
+
+Estrutura do tipo arvore facilita a busca.
+Exemplo de verto com 7 posições.
+Quero fazer uma busca nesse vetor.
+ 
+Essa busca vai procurar passo a passo até achar o 15.
+É uma forma de busca mais lenta, Que eu passo te posição em posição até achar o valor dentro do vetor.
+
+Nem sempre coloco o vetor de forma organizada e crescente, as vezes os valores vão estar espalhados. Como facilitar? Se ele estiver de forma organizada já ajudei.
+Ao invés de buscar posição em posição, divido no meio e peço para buscar no meio, se quiser  o numero 31 e estiver de uma forma organizada, já sei que ao encontrar 15 no meio, sei que metade dos avlores já estão descartados porque não atendem ao 31.
+ 
+
+Portanto para fazer isso, foi criada a estrutura do tipo arvore.
+
+Na estrutura ligada é impossível fazer isso, porque nessa lista liga, cada numero funciona como um vetor diferente.
+ 
+
+Já na estrutura do tipo arvore os valores são colocados como Nós.
+Raiz é o meio
+ 
+
+Nós = folhas.
+Busca na raiz, está na raiz? Não, então procura nas subarvores
+ 
+ 
+
+ 
+Na computação essa estrutura é apresentada de forma inversa.
+
+3.3.2 O que são tabelas hash
+Tabela de espalhamento ou dispersão
+
+ 
+
+ 
+
+Exemplo de hashing
+ 
+Para haver a pesquisa dentro desses elementos, já que não estão de forma ordenada, sem cliassificação dos dados A tabela hashing permite associar valores a chaves
+
+ 
+
+
+Agora não chamo ele só pelo inidice, eu chamo a chave pelo valor, ou o valor pela chave.
+ 
+
+A partir da chave, acessamos o valor do array rapidamente.
+Usamos o código referente a esse valor.
+
+Sei qual é chave daquele item que peguei.
+3.3.3 O que são grafos
+ 
+
+ 
+
+Vertices são os números, as areastas são a ligação entre os objetos.
+
+O3 só conhece o 4 e o 2.
+
+ 
+
+Lembrar de rede social.
+ 
+
+Com isso podemos fazer qualquer tipo de estrutura e qualquer tipo de estrutura.
+Consigo criar estruturas não lineares, e é uma estrutura de qualquer tipo.
+O cara pode andar para tras, pro lado, na diagonal, diferente de uma lista duplamente ligada que só consegue andar pra frente e para trás.
+Esses grafos são struturas mais complexas, mais especiais e são utilizadas em algoritmos de inteligência artificial, para fazer um jogo, fazer uma busca mais avançada.

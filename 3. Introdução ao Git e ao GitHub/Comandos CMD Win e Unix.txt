@@ -1,0 +1,5 @@
+WINDOWS				UNIX				descrição
+CD				CD				sobe ou desce nivel de diretorio
+DIR				LS				listar, entender em que lugar eu estoi, lista de diretorios
+MKDIR				MKDIR				criar um diretório na pasta que eu estou
+DEL / RMDIR			RM - RF				deleta repositorio
